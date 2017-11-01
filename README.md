@@ -19,7 +19,7 @@ This code is written in C++ and requires the following libraries:
 ### A. Compile Caffe ###
 We frist compile the Caffe included in the folder ./Features/CNN/external. Please configure the correct paths for libraries in the file ./Features/CNN/external/caffe/Makefile.config. More details can be found on [Caffe](http://caffe.berkeleyvision.org/) Website.
 ### B. Compile the feature extraction code ###
-Then we compile the feature extraction code. The Makefile is: ./Features/CNN/ver2/Makefile. In the example Makefile, since some libraries are not installed in the default path in our environment, we include the library paths in the Makefile explicitly. You will need to manually modify the Makefile with correct library paths in your own environment to successfully compile the library.
+Then we compile the feature extraction code. The Makefile is: ./Features/CNN/ver2/Makefile. Since some libraries are not installed in the default path in our environment, we include the library paths in the example Makefile explicitly. You will need to manually modify the Makefile with correct library paths in your own environment to successfully compile the library.
 
 ## Usage ##
 ```

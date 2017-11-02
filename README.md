@@ -1,9 +1,7 @@
 # ComputeFeatures
-This repository contains the feature extraction code in our Memex image search service. It includes the ability to
-    
+This repository contains the feature extraction code in our Memex image search service. It includes the ability to:
     1. Extract features of images from a specic layer from a pre-trained neural network.
     2. Store all the features in a format that is usable by the image serach service.
-
 In our image search service, we use the code to extract the features of database images and store all the features on the disk. Later, [ScalableLSH](https://github.com/Minione/ScalableLSH) will deploy the image search service based on the database image features.
 
 ## Requirements ##
